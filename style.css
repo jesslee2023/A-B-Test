@@ -31,6 +31,28 @@ section {
   margin: 1rem 0;
 }
 
+p {
+  font-size: larger;
+}
+
+#accept-cookies {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#refuse-cookies {
+  background-color: #f44336;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 #confirmation-message {
   display: none;
   position: fixed;
