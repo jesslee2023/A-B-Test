@@ -50,5 +50,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
   ctaButton.addEventListener('click', function () {
     console.log(`User in Group ${userGroup} liked it.`);
+    const confirmationMessage = document.getElementById('confirmation-message');
+    confirmationMessage.style.display = 'block';
+    setTimeout(function () {
+      confirmationMessage.style.display = 'none';
+    }, 3000);
   });
 });

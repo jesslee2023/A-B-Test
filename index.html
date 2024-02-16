@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-TJ3BTL56');
+    </script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>A/B Testing Task</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-TJ3BTL56"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div id="gdpr-consent-banner">
       <p>
         We use cookies to improve your experience. If you click refuse cookies,
@@ -29,6 +53,9 @@
       </section>
       <section id="dynamic-content" aria-live="polite"></section>
       <button id="cta-button" style="display: none">I like my group!</button>
+      <div id="confirmation-message" style="display: none">
+        Your choice has been console logged!
+      </div>
     </main>
     <script src="script.js"></script>
   </body>
