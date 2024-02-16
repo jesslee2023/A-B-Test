@@ -53,6 +53,15 @@ p {
   cursor: pointer;
 }
 
+#reconsider-cookies {
+  background-color: #2196f3;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 #confirmation-message {
   display: none;
   position: fixed;
