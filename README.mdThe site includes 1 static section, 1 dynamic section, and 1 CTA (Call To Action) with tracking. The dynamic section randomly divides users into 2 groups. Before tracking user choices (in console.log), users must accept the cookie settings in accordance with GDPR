@@ -1,0 +1,5 @@
+The site includes 1 static section, 1 dynamic section, and 1 CTA (Call To Action) with tracking. 
+
+The dynamic section randomly divides users into 2 groups. 
+
+Before tracking user choices (in console.log), users must accept the cookie settings in accordance with GDPR.
